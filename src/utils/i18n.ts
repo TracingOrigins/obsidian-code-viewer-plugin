@@ -1,8 +1,16 @@
 // i18n.ts — 多语言国际化工具函数
-import zh from "../locales/zh.json";
-import en from "../locales/en.json";
-import ru from "../locales/ru.json";
+import zhRaw from "../locales/zh.json";
+import enRaw from "../locales/en.json";
+import ruRaw from "../locales/ru.json";
 import { getLanguage } from "obsidian";
+
+function asLocale<T extends Record<string, string>>(v: T): T {
+  return v;
+}
+
+const zh = asLocale(zhRaw);
+const en = asLocale(enRaw);
+const ru = asLocale(ruRaw);
 
 const locales: Record<string, Record<string, string>> = {
   zh,

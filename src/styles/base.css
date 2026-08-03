@@ -54,7 +54,7 @@
 }
 
 .code-viewer-code-block .copy-code-button {
-  display: none !important;
+  display: none;
 }
 
 .code-viewer-host {
