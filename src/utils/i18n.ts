@@ -4,13 +4,9 @@ import enRaw from "../locales/en.json";
 import ruRaw from "../locales/ru.json";
 import { getLanguage } from "obsidian";
 
-function asLocale<T extends Record<string, string>>(v: T): T {
-  return v;
-}
-
-const zh = asLocale(zhRaw);
-const en = asLocale(enRaw);
-const ru = asLocale(ruRaw);
+const zh: Record<string, string> = zhRaw;
+const en: Record<string, string> = enRaw;
+const ru: Record<string, string> = ruRaw;
 
 const locales: Record<string, Record<string, string>> = {
   zh,
