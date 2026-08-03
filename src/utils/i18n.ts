@@ -1,17 +1,16 @@
 // i18n.ts — 多语言国际化工具函数
-import zhRaw from "../locales/zh.json";
-import enRaw from "../locales/en.json";
-import ruRaw from "../locales/ru.json";
+import zh from "../locales/zh.json";
+import en from "../locales/en.json";
+import ru from "../locales/ru.json";
 import { getLanguage } from "obsidian";
 
-const zh: Record<string, string> = zhRaw;
-const en: Record<string, string> = enRaw;
-const ru: Record<string, string> = ruRaw;
-
 const locales: Record<string, Record<string, string>> = {
-  zh,
-  en,
-  ru,
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion -- JSON imports need explicit typing
+  zh: zh as Record<string, string>,
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion -- JSON imports need explicit typing
+  en: en as Record<string, string>,
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion -- JSON imports need explicit typing
+  ru: ru as Record<string, string>,
 };
 
 function getCurrentLang(): string {

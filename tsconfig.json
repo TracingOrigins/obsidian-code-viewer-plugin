@@ -15,5 +15,5 @@
         "lib": ["DOM", "ES2020"],
         "types": ["node"]
     },
-    "include": ["src/**/*.ts", "src/**/*.json", "scripts/**/*", "esbuild.config.mjs"]
+    "include": ["src/**/*.ts", "scripts/**/*", "esbuild.config.mjs"]
 }
