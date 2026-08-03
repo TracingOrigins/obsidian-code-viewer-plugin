@@ -1,0 +1,18 @@
+{
+    "reload_notice": "Code Viewer: extension list changed. Reload Obsidian (Ctrl+R) to apply.",
+    "file_extensions": "File extensions",
+    "file_extensions_desc": "Comma- or whitespace-separated list of file extensions to open with code viewer. Leading dots optional. Reload Obsidian after changing.",
+    "show_line_numbers": "Show line numbers",
+    "show_line_numbers_desc": "Render a gutter with line numbers next to the code.",
+    "advanced": "Advanced",
+    "enable_edit": "Enable code editing",
+    "enable_edit_desc": "Show an edit button to modify code files via a temporary markdown file.",
+    "edit_open_mode": "Edit open mode",
+    "edit_open_mode_desc": "How to open the editor when clicking the edit button.",
+    "edit_mode_current": "Current tab",
+    "edit_mode_new": "New tab",
+    "edit": "Edit",
+    "save": "Save",
+    "view": "View",
+    "saved": "Saved"
+}

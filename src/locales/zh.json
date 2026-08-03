@@ -1,0 +1,18 @@
+{
+    "reload_notice": "Code Viewer：扩展名列表已更改，重载 Obsidian（Ctrl+R）后生效。",
+    "file_extensions": "文件扩展名",
+    "file_extensions_desc": "以逗号或空格分隔的文件扩展名列表，这些文件将使用代码查看器打开。可省略前导句点。更改后需重载 Obsidian。",
+    "show_line_numbers": "显示行号",
+    "show_line_numbers_desc": "在代码旁边显示行号栏。",
+    "advanced": "高级",
+    "enable_edit": "启用代码编辑",
+    "enable_edit_desc": "显示编辑按钮，可通过临时 Markdown 文件修改源代码。",
+    "edit_open_mode": "编辑打开方式",
+    "edit_open_mode_desc": "点击编辑按钮时的打开方式。",
+    "edit_mode_current": "当前标签页",
+    "edit_mode_new": "新标签页",
+    "edit": "编辑",
+    "save": "保存",
+    "view": "查看",
+    "saved": "已保存"
+}

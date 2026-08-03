@@ -1,0 +1,105 @@
+/* ============================================================
+   Code Viewer — Layout styles
+   ============================================================ */
+
+.code-viewer-container {
+  overflow: auto;
+  font-size: 14px;
+  line-height: 21px;
+  background: var(--background-primary);
+  color: var(--text-normal);
+}
+
+.code-viewer-wrap {
+  display: flex;
+  align-items: flex-start;
+  min-width: max-content;
+}
+
+.code-viewer-gutter {
+  font-size: 12px;
+  line-height: 21px;
+  user-select: none;
+  flex: 0 0 auto;
+  text-align: right;
+  padding-right: 12px;
+  margin-right: 12px;
+  border-right: 1px solid var(--background-modifier-border);
+  color: var(--text-faint);
+  opacity: 0.5;
+  width: 48px;
+}
+
+.code-viewer-gutter > div {
+  font-variant-numeric: tabular-nums;
+  white-space: pre;
+}
+
+/* Obsidian 渲染的代码块 */
+.code-viewer-code-block .markdown-rendered pre,
+.code-viewer-container pre {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  white-space: pre;
+}
+
+.code-viewer-code-block .markdown-rendered pre code {
+  background: transparent;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.code-viewer-code-block .copy-code-button {
+  display: none !important;
+}
+
+.code-viewer-host {
+  position: relative;
+}
+
+/* ---- 操作按钮（编辑 / 保存 / 查看）---- */
+.code-viewer-edit-btn,
+.code-viewer-editor-btn {
+  display: flex;
+  align-items: center;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.code-viewer-edit-btn {
+  position: absolute;
+  top: var(--size-4-3);
+  right: var(--size-4-3);
+  z-index: 1;
+}
+
+.code-viewer-edit-btn:hover,
+.code-viewer-editor-bar:hover {
+  opacity: 1;
+}
+
+.code-viewer-edit-btn,
+.code-viewer-editor-bar {
+  opacity: 0.4;
+  transition: opacity 0.15s;
+}
+
+.code-viewer-editor-bar {
+  position: absolute;
+  top: var(--size-4-3);
+  right: 12px;
+  z-index: 1;
+  display: flex;
+  gap: 4px;
+}
+
+.code-viewer-gutter-hidden {
+  display: none;
+}
