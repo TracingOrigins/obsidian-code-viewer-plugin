@@ -67,7 +67,7 @@ export class CodeViewerSettingTab extends PluginSettingTab {
       },
       {
         type: "group" as const,
-        name: t("advanced"),
+        heading: t("advanced"),
         items: [
           {
             name: t("enable_edit"),
