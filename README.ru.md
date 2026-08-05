@@ -34,10 +34,10 @@ Code Viewer — это плагин Obsidian для **просмотра и ре
 
 | Настройка | По умолчанию | Описание |
 |-----------|-------------|----------|
-| **File extensions** | 50+ расширений | Список расширений через запятую для открытия в Code Viewer |
-| **Show line numbers** | Вкл | Переключение панели номеров строк |
-| **Enable code editing** | Вкл | Показать кнопку редактирования для изменения кода |
-| **Edit open mode** | Текущая вкладка | Где открыть редактор: текущая или новая вкладка |
+| **Расширения файлов** | 50+ расширений | Список расширений через запятую для открытия в Code Viewer |
+| **Показывать номера строк** | Вкл | Переключение панели номеров строк |
+| **Включить редактирование** | Вкл | Показать кнопку редактирования для изменения кода |
+| **Режим открытия** | Текущая вкладка | Где открыть редактор: текущая или новая вкладка |
 
 > **Требования:** Obsidian 1.13.0 или новее.
 >
@@ -45,7 +45,7 @@ Code Viewer — это плагин Obsidian для **просмотра и ре
 
 ## Поддерживаемые языки
 
-Python, PowerShell, Bash, TypeScript, TSX, JavaScript, JSX, C#, C, C++, SQL, YAML, TOML, Rust, Go, Lua, GDScript, Batch, Ruby, PHP, Perl, R, Dart, Kotlin, Swift, Vue, Svelte, INI, Dockerfile, Makefile, CMake, XML, HTML, CSS, SCSS, Less, JSON, JSON5, HCL, Protobuf, GraphQL и другие.
+Python, PowerShell, Bash, TypeScript, TSX, JavaScript, JSX, C#, C, C++, SQL, YAML, TOML, Rust, Go, Lua, GDScript, Batch, Ruby, PHP, Perl, R, Dart, Kotlin, Swift, Vue, Svelte, INI, XML, HTML, CSS, SCSS, Less, JSON, JSON5, HCL, Protobuf, GraphQL и другие.
 
 ## Установка
 

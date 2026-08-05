@@ -34,10 +34,10 @@ Code Viewer 是一个用于**查看和编辑**代码文件的 Obsidian 插件。
 
 | 设置项 | 默认值 | 说明 |
 |---------|---------|------|
-| **File extensions** | 50+ 种扩展名 | 以逗号分隔的扩展名列表，这些文件将使用 Code Viewer 打开 |
-| **Show line numbers** | 开启 | 切换行号栏显示 |
-| **Enable code editing** | 开启 | 显示编辑按钮，支持内联代码编辑 |
-| **Edit open mode** | 当前标签页 | 编辑器打开方式：当前标签页或新标签页 |
+| **文件扩展名** | 50+ 种扩展名 | 以逗号分隔的扩展名列表，这些文件将使用 Code Viewer 打开 |
+| **显示行号** | 开启 | 切换行号栏显示 |
+| **启用代码编辑** | 开启 | 显示编辑按钮，支持内联代码编辑 |
+| **编辑打开方式** | 当前标签页 | 编辑器打开位置：当前标签页或新标签页 |
 
 > **系统要求：** Obsidian 1.13.0 或更高版本。
 >
@@ -45,7 +45,7 @@ Code Viewer 是一个用于**查看和编辑**代码文件的 Obsidian 插件。
 
 ## 支持的语言
 
-Python、PowerShell、Bash、TypeScript、TSX、JavaScript、JSX、C#、C、C++、SQL、YAML、TOML、Rust、Go、Lua、GDScript、Batch、Ruby、PHP、Perl、R、Dart、Kotlin、Swift、Vue、Svelte、INI、Dockerfile、Makefile、CMake、XML、HTML、CSS、SCSS、Less、JSON、JSON5、HCL、Protobuf、GraphQL 等。
+Python、PowerShell、Bash、TypeScript、TSX、JavaScript、JSX、C#、C、C++、SQL、YAML、TOML、Rust、Go、Lua、GDScript、Batch、Ruby、PHP、Perl、R、Dart、Kotlin、Swift、Vue、Svelte、INI、XML、HTML、CSS、SCSS、Less、JSON、JSON5、HCL、Protobuf、GraphQL 等。
 
 ## 安装
 

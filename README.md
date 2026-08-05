@@ -34,18 +34,18 @@ You can customize which extensions are handled via **Settings → Code Viewer**.
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| **File extensions** | 50+ extensions | Comma-separated list of extensions to open with Code Viewer |
-| **Show line numbers** | On | Toggle line number gutter |
-| **Enable code editing** | On | Show edit button for inline source editing |
-| **Edit open mode** | Current tab | Where to open the editor: current tab or new tab |
+| **File extensions** | 50+ extensions | Comma-separated list of file extensions to open with Code Viewer |
+| **Show line numbers** | On | Toggle the line number gutter |
+| **Enable code editing** | On | Show the edit button for inline source editing |
+| **Edit open mode** | Current tab | Where the editor opens: current tab or a new tab |
 
 > **Requirements:** Obsidian 1.13.0 or later.
 >
-> **Note:** Changing the extension list requires an Obsidian reload (Ctrl+R) to take effect.
+> **Note:** Changing the extension list requires reloading Obsidian (Ctrl+R) to take effect.
 
 ## Supported Languages
 
-Python, PowerShell, Bash, TypeScript, TSX, JavaScript, JSX, C#, C, C++, SQL, YAML, TOML, Rust, Go, Lua, GDScript, Batch, Ruby, PHP, Perl, R, Dart, Kotlin, Swift, Vue, Svelte, INI, Dockerfile, Makefile, CMake, XML, HTML, CSS, SCSS, Less, JSON, JSON5, HCL, Protobuf, GraphQL, and more.
+Python, PowerShell, Bash, TypeScript, TSX, JavaScript, JSX, C#, C, C++, SQL, YAML, TOML, Rust, Go, Lua, GDScript, Batch, Ruby, PHP, Perl, R, Dart, Kotlin, Swift, Vue, Svelte, INI, XML, HTML, CSS, SCSS, Less, JSON, JSON5, HCL, Protobuf, GraphQL, and more.
 
 ## Installation
 
