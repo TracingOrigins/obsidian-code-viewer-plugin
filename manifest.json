@@ -1,7 +1,7 @@
 {
 	"id": "code-viewer",
 	"name": "Code Viewer",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"minAppVersion": "1.13.4",
 	"description": "View and edit code files with native syntax highlighting.",
 	"author": "Kevin",
