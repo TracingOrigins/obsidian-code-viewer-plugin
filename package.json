@@ -1,6 +1,6 @@
 {
     "name": "code-viewer",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "View and edit source code files with native syntax highlighting.",
     "author": "Kevin",
     "license": "MIT",
