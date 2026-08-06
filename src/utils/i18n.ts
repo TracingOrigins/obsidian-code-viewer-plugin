@@ -5,12 +5,9 @@ import ru from "../locales/ru.json";
 import { getLanguage } from "obsidian";
 
 const locales: Record<string, Record<string, string>> = {
-  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion -- JSON imports need explicit typing
-  zh: zh as Record<string, string>,
-  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion -- JSON imports need explicit typing
-  en: en as Record<string, string>,
-  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion -- JSON imports need explicit typing
-  ru: ru as Record<string, string>,
+  zh,
+  en,
+  ru,
 };
 
 // 取当前语言：优先 zh / ru，其余一律回退到 en；
