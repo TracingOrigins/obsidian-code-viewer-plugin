@@ -5,9 +5,8 @@
         <img src="https://img.shields.io/github/downloads/TracingOrigins/obsidian-code-viewer-plugin/total?logo=github" alt="GitHub Downloads">
     </p>
     <p>[<a href="https://github.com/TracingOrigins/obsidian-code-viewer-plugin/blob/master/README.zh.md">中文</a> | English | <a href="https://github.com/TracingOrigins/obsidian-code-viewer-plugin/blob/master/README.ru.md">Русский</a>]</p>
+    <p><a href="https://community.obsidian.md/account/plugins/code-viewer" target="_blank">Code Viewer</a> is an Obsidian plugin for viewing and editing code files. Click any supported file to open it with native syntax highlighting, or use the inline editor to make quick changes — no external dependencies.</p>
 </div>
-
-Code Viewer is an Obsidian plugin for **viewing and editing** code files. Click any supported file to open it with native syntax highlighting, or use the inline editor to make quick changes — no external dependencies.
 
 ## Features
 

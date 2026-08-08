@@ -5,9 +5,8 @@
         <img src="https://img.shields.io/github/downloads/TracingOrigins/obsidian-code-viewer-plugin/total?logo=github" alt="GitHub Downloads">
     </p>
     <p>[中文 | <a href="https://github.com/TracingOrigins/obsidian-code-viewer-plugin/blob/master/README.md">English</a> | <a href="https://github.com/TracingOrigins/obsidian-code-viewer-plugin/blob/master/README.ru.md">Русский</a>]</p>
+    <p><a href="https://community.obsidian.md/account/plugins/code-viewer" target="_blank">Code Viewer</a> 是一个用于查看和编辑代码文件的 Obsidian 插件。点击任意支持的代码文件即可使用原生语法高亮查看，也可通过内联编辑器快速修改 — 无需外部依赖。</p>
 </div>
-
-Code Viewer 是一个用于**查看和编辑**代码文件的 Obsidian 插件。点击任意支持的代码文件即可使用原生语法高亮查看，也可通过内联编辑器快速修改 — 无需外部依赖。
 
 ## 功能特性
 
