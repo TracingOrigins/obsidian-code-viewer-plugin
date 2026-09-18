@@ -48,35 +48,57 @@ Python, PowerShell, Bash, TypeScript, TSX, JavaScript, JSX, C#, C, C++, SQL, YAM
 
 ## Установка
 
-### Из сообщества плагинов Obsidian
+### Из официального каталога плагинов (рекомендуется)
 
-1. Откройте **Настройки → Сторонние плагины**
+1. Откройте Obsidian и перейдите в **Настройки → Сторонние плагины**
 2. Отключите **Безопасный режим**
 3. Нажмите **Обзор** и найдите "Code Viewer"
-4. Установите и включите
+4. Нажмите **Установить**, затем **Включить**
 
-### Вручную
+### Ручная установка
 
-```bash
-cd /path/to/vault/.obsidian/plugins
-git clone https://github.com/TracingOrigins/obsidian-code-viewer-plugin.git code-viewer
-cd code-viewer
-npm install && npm run build
-```
+1. Скачайте последние версии `main.js`, `manifest.json` и `styles.css` на странице [Releases](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/releases)
+2. Создайте папку `code-viewer` в каталоге плагинов хранилища (например, `ВашеХранилище/.obsidian/plugins/code-viewer/`) и поместите в неё эти три файла
+3. Включите плагин в **Настройки → Сторонние плагины**
 
-Затем включите плагин в **Настройки → Сторонние плагины**.
+### Установка через BRAT (рекомендуется для тестировщиков)
 
-## Разработка
+1. Установите плагин [BRAT](https://github.com/TfTHacker/obsidian42-brat)
+2. В настройках BRAT нажмите **Add Beta plugin**
+3. Введите `TracingOrigins/obsidian-code-viewer-plugin`
+4. Включите плагин
 
-1. Скопируйте `.env.example` в `.env` и укажите `VAULT_PATH` — путь к вашему хранилищу Obsidian:
-   ```
-   VAULT_PATH=C:/Users/YourName/Documents/MyVault
-   ```
-2. Установите зависимости и начните разработку:
+## Руководство по разработке
 
-```bash
-npm install        # установка зависимостей
-npm run dev        # режим отслеживания (авто-деплой в хранилище)
-npm run build      # production сборка (авто-деплой в хранилище)
-npm run lint       # запуск eslint
-```
+1. Клонируйте репозиторий:
+
+    ```bash
+    git clone https://github.com/TracingOrigins/obsidian-code-viewer-plugin.git
+    cd obsidian-code-viewer-plugin
+    ```
+
+2. Скопируйте `.env.example` в `.env` и укажите `VAULT_PATH` — путь к вашему хранилищу Obsidian:
+
+    ```
+    VAULT_PATH=C:/Users/YourName/Documents/MyVault
+    ```
+
+3. Установите зависимости и начните разработку:
+
+    ```bash
+    npm install          # установка зависимостей
+    npm run dev          # режим отслеживания (авто-деплой в хранилище)
+    npm run build        # production сборка (авто-деплой в хранилище)
+    npm run lint         # запуск eslint
+    ```
+
+## Поддержка и обратная связь
+
+Если этот плагин вам помог, пожалуйста, рассмотрите возможность:
+
+- ⭐ **Поставить звезду репозиторию**
+- 🐛 Сообщить об ошибке по [шаблону bug report](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/issues/new?template=bug_report.md)
+- 💡 Предложить функцию по [шаблону feature request](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/issues/new?template=feature_request.md)
+- ❓ Задать вопрос или поделиться идеей в [GitHub Issues](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/issues)
+- 📝 Ознакомиться с [руководством по контрибуции](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/blob/master/docs/contributing/contributing.md) и внести вклад кодом или документацией
+- 💰 Поддержать разработчика на [странице поддержки](https://support.tracingorigins.top/) (если доступно)

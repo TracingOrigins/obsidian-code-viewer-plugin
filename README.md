@@ -48,35 +48,57 @@ Python, PowerShell, Bash, TypeScript, TSX, JavaScript, JSX, C#, C, C++, SQL, YAM
 
 ## Installation
 
-### From Obsidian Community Plugins
+### From the Official Community Plugin Market (Recommended)
 
-1. Open **Settings → Community plugins**
-2. Disable **Safe mode**
+1. Open Obsidian and go to **Settings → Community plugins**
+2. Turn off **Safe mode**
 3. Click **Browse** and search for "Code Viewer"
-4. Install and enable
+4. Click **Install**, then **Enable**
 
-### Manual
+### Manual Installation
 
-```bash
-cd /path/to/vault/.obsidian/plugins
-git clone https://github.com/TracingOrigins/obsidian-code-viewer-plugin.git code-viewer
-cd code-viewer
-npm install && npm run build
-```
+1. Download the latest `main.js`, `manifest.json` and `styles.css` from [Releases](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/releases)
+2. Create a `code-viewer` folder in your vault's plugin directory (e.g. `YourVault/.obsidian/plugins/code-viewer/`) and place the three files inside
+3. Enable the plugin in **Settings → Community plugins**
 
-Then enable the plugin in **Settings → Community plugins**.
+### Install via BRAT (Recommended for Testers)
 
-## Development
+1. Install the [BRAT](https://github.com/TfTHacker/obsidian42-brat) plugin
+2. Open BRAT settings and click **Add Beta plugin**
+3. Enter `TracingOrigins/obsidian-code-viewer-plugin`
+4. Enable the plugin
 
-1. Copy `.env.example` to `.env` and set `VAULT_PATH` to your Obsidian vault path:
-   ```
-   VAULT_PATH=C:/Users/YourName/Documents/MyVault
-   ```
-2. Install dependencies and start developing:
+## Development Guide
 
-```bash
-npm install        # install dependencies
-npm run dev        # watch mode (auto-deploys to vault)
-npm run build      # production build (auto-deploys to vault)
-npm run lint       # run eslint
-```
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/TracingOrigins/obsidian-code-viewer-plugin.git
+    cd obsidian-code-viewer-plugin
+    ```
+
+2. Copy `.env.example` to `.env` and set `VAULT_PATH` to your Obsidian vault path:
+
+    ```
+    VAULT_PATH=C:/Users/YourName/Documents/MyVault
+    ```
+
+3. Install dependencies and start developing:
+
+    ```bash
+    npm install          # install dependencies
+    npm run dev          # watch mode (auto-deploys to vault)
+    npm run build        # production build (auto-deploys to vault)
+    npm run lint         # run eslint
+    ```
+
+## Support & Feedback
+
+If this plugin helps you, please consider:
+
+- ⭐ **Star the repository**
+- 🐛 Report bugs using the [bug report template](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/issues/new?template=bug_report.md)
+- 💡 Request features using the [feature request template](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/issues/new?template=feature_request.md)
+- ❓ Ask questions or share ideas in [GitHub Issues](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/issues)
+- 📝 Read the [contributing guide](https://github.com/TracingOrigins/obsidian-code-viewer-plugin/blob/master/docs/contributing/contributing.md) and contribute code or docs
+- 💰 Donate to the developer at the [support page](https://support.tracingorigins.top/) (if available)
